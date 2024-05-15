@@ -1,583 +1,610 @@
-<h1 align="center">The Practical Guides for Large Language Models </h1>
-
-
-<p align="center">
-	<img src="https://camo.githubusercontent.com/64f8905651212a80869afbecbf0a9c52a5d1e70beab750dea40a994fa9a9f3c6/68747470733a2f2f617765736f6d652e72652f62616467652e737667" alt="Awesome" data-canonical-src="https://awesome.re/badge.svg" style="max-width: 100%;">	     
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 align="center" tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大型语言模型实用指南</font></font></h1><a id="user-content-the-practical-guides-for-large-language-models-" class="anchor" aria-label="永久链接：大型语言模型实用指南" href="#the-practical-guides-for-large-language-models-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p align="center" dir="auto">
+	<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/64f8905651212a80869afbecbf0a9c52a5d1e70beab750dea40a994fa9a9f3c6/68747470733a2f2f617765736f6d652e72652f62616467652e737667"><img src="https://camo.githubusercontent.com/64f8905651212a80869afbecbf0a9c52a5d1e70beab750dea40a994fa9a9f3c6/68747470733a2f2f617765736f6d652e72652f62616467652e737667" alt="惊人的" style="max-width: 100%;"></a>	     
 </p>
-
-A curated (still actively updated) list of practical guide resources of LLMs. It's based on our survey paper: [Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond](https://arxiv.org/abs/2304.13712) and efforts from @[xinyadu](https://github.com/xinyadu). The survey is partially based on the second half of this [Blog](https://jingfengyang.github.io/gpt). We also build an evolutionary tree of modern Large Language Models (LLMs) to trace the development of language models in recent years and highlights some of the most well-known models. 
-
-These sources aim to help practitioners navigate the vast landscape of large language models (LLMs) and their applications in natural language processing (NLP) applications. We also include their usage restrictions based on the model and data licensing information.
-If you find any resources in our repository helpful, please feel free to use them (don't forget to cite our paper! 😃). We welcome pull requests to refine this figure! 
-
-<p align="center">
-<img width="600" src="./imgs/tree.jpg"/>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">法学硕士实用指南资源的精选（仍在积极更新）列表。它基于我们的调查论文：</font></font><a href="https://arxiv.org/abs/2304.13712" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在实践中利用法学硕士的力量：关于 ChatGPT 及其他的调查以及</font></font></a><font style="vertical-align: inherit;"></font><a href="https://github.com/xinyadu"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@xinyadu</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的努力</font><font style="vertical-align: inherit;">。该调查部分基于本</font></font><a href="https://jingfengyang.github.io/gpt" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的后半部分</font><font style="vertical-align: inherit;">。我们还构建了现代大型语言模型（LLM）的进化树，以追踪近年来语言模型的发展，并重点介绍一些最著名的模型。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这些资源旨在帮助从业者了解大型语言模型 (LLM) 及其在自然语言处理 (NLP) 应用程序中的应用。我们还根据模型和数据许可信息包括它们的使用限制。如果您发现我们的存储库中的任何资源有帮助，请随时使用它们（不要忘记引用我们的论文！😃）。我们欢迎拉取请求来完善这个数字！</font></font></p>
+<p align="center" dir="auto">
+<a target="_blank" rel="noopener noreferrer" href="/Mooler0410/LLMsPracticalGuide/blob/main/imgs/tree.jpg"><img width="600" src="/Mooler0410/LLMsPracticalGuide/raw/main/imgs/tree.jpg" style="max-width: 100%;"></a>
 </p>
-
-
-```bibtex
-    @article{yang2023harnessing,
+<div class="highlight highlight-text-bibtex notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c">    </span><span class="pl-k">@article</span>{<span class="pl-en">yang2023harnessing</span>,
+        <span class="pl-s">title</span>=<span class="pl-s"><span class="pl-pds">{</span>Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond<span class="pl-pds">}</span></span>, 
+        <span class="pl-s">author</span>=<span class="pl-s"><span class="pl-pds">{</span>Jingfeng Yang and Hongye Jin and Ruixiang Tang and Xiaotian Han and Qizhang Feng and Haoming Jiang and Bing Yin and Xia Hu<span class="pl-pds">}</span></span>,
+        <span class="pl-s">year</span>=<span class="pl-s"><span class="pl-pds">{</span>2023<span class="pl-pds">}</span></span>,
+        <span class="pl-s">eprint</span>=<span class="pl-s"><span class="pl-pds">{</span>2304.13712<span class="pl-pds">}</span></span>,
+        <span class="pl-s">archivePrefix</span>=<span class="pl-s"><span class="pl-pds">{</span>arXiv<span class="pl-pds">}</span></span>,
+        <span class="pl-s">primaryClass</span>=<span class="pl-s"><span class="pl-pds">{</span>cs.CL<span class="pl-pds">}</span></span>
+    }</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="    @article{yang2023harnessing,
         title={Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond}, 
         author={Jingfeng Yang and Hongye Jin and Ruixiang Tang and Xiaotian Han and Qizhang Feng and Haoming Jiang and Bing Yin and Xia Hu},
         year={2023},
         eprint={2304.13712},
         archivePrefix={arXiv},
         primaryClass={cs.CL}
-    }
-```
-
-## Latest News💥
-- We added usage and restrictions section.
-- We used PowerPoint to plot the figure and released the source file [pptx](./source/figure_gif.pptx) for our GIF figure. [4/27/2023]
-- We released the source file for the still version [pptx](./source/figure_still.pptx), and replaced the figure in this repo with the still version. [4/29/2023]
-- Add AlexaTM, UniLM, UniLMv2 to the figure, and correct the logo for Tk. [4/29/2023]
-- Add usage and Restrictions (for commercial and research purposes) section. Credits to [Dr. Du](https://github.com/xinyadu).  [5/8/2023]
-
-
-
-
-## Other Practical Guides for LLMs
-
-- **Why did all of the public reproduction of GPT-3 fail? In which tasks should we use GPT-3.5/ChatGPT?** 2023, [Blog](https://jingfengyang.github.io/gpt) 
-- **Building LLM applications for production**, 2023, [Blog](https://huyenchip.com/2023/04/11/llm-engineering.html)
-- **Data-centric Artificial Intelligence**, 2023, [Repo](https://github.com/daochenzha/data-centric-AI)/[Blog](https://towardsdatascience.com/what-are-the-data-centric-ai-concepts-behind-gpt-models-a590071bb727)/[Paper](https://arxiv.org/abs/2303.10158)
-
-
-## Catalog
-* [The Practical Guides for Large Language Models ](#the-practical-guides-for-large-language-models-)
-   * [Practical Guide for Models](#practical-guide-for-models)
-      * [BERT-style Language Models: Encoder-Decoder or Encoder-only](#bert-style-language-models-encoder-decoder-or-encoder-only)
-      * [GPT-style Language Models: Decoder-only](#gpt-style-language-models-decoder-only)
-   * [Practical Guide for Data](#practical-guide-for-data)
-      * [Pretraining data](#pretraining-data)
-      * [Finetuning data](#finetuning-data)
-      * [Test data/user data](#test-datauser-data)
-   * [Practical Guide for NLP Tasks](#practical-guide-for-nlp-tasks)
-      * [Traditional NLU tasks](#traditional-nlu-tasks)
-      * [Generation tasks](#generation-tasks)
-      * [Knowledge-intensive tasks](#knowledge-intensive-tasks)
-      * [Abilities with Scaling](#abilities-with-scaling)
-      * [Specific tasks](#specific-tasks)
-      * [Real-World ''Tasks''](#real-world-tasks)
-      * [Efficiency](#efficiency)
-      * [Trustworthiness](#trustworthiness)
-      * [Benchmark Instruction Tuning](#benchmark-instruction-tuning)
-      * [Alignment](#alignment)
-         * [Safety Alignment (Harmless)](#safety-alignment-harmless)
-         * [Truthfulness Alignment (Honest)](#truthfulness-alignment-honest)
-         * [Practical Guides for Prompting (Helpful)](#practical-guides-for-prompting-helpful)
-         * [Alignment Efforts of Open-source Communtity](#alignment-efforts-of-open-source-communtity)
-   * [Usage and Restractions (Models and Data)](#Usage-and-Restrictions)
-
-## Practical Guide for Models
-
-### BERT-style Language Models: Encoder-Decoder or Encoder-only
-
-- BERT **BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding**, 2018, [Paper](https://aclanthology.org/N19-1423.pdf)
-- RoBERTa **RoBERTa: A Robustly Optimized BERT Pretraining Approach**, 2019, [Paper](https://arxiv.org/abs/1907.11692)
-- DistilBERT **DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter**, 2019, [Paper](https://arxiv.org/abs/1910.01108)
-- ALBERT **ALBERT: A Lite BERT for Self-supervised Learning of Language Representations**, 2019, [Paper](https://arxiv.org/abs/1909.11942)
-- UniLM **Unified Language Model Pre-training for Natural Language Understanding and Generation**, 2019 [Paper](https://arxiv.org/abs/1905.03197)
-- ELECTRA **ELECTRA: PRE-TRAINING TEXT ENCODERS AS DISCRIMINATORS RATHER THAN GENERATORS**, 2020, [Paper](https://openreview.net/pdf?id=r1xMH1BtvB)
-- T5 **"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer"**. *Colin Raffel et al.* JMLR 2019. [Paper](https://arxiv.org/abs/1910.10683)
-- GLM **"GLM-130B: An Open Bilingual Pre-trained Model"**. 2022. [Paper](https://arxiv.org/abs/2210.02414)
-- AlexaTM **"AlexaTM 20B: Few-Shot Learning Using a Large-Scale Multilingual Seq2Seq Model"**. *Saleh Soltan et al.* arXiv 2022. [Paper](https://arxiv.org/abs/2208.01448)
-- ST-MoE **ST-MoE: Designing Stable and Transferable Sparse Expert Models**. 2022 [Paper](https://arxiv.org/abs/2202.08906)
-
-
-### GPT-style Language Models: Decoder-only
-
-- GPT **Improving Language Understanding by Generative Pre-Training**. 2018. [Paper](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
-- GPT-2 **Language Models are Unsupervised Multitask Learners**. 2018. [Paper](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
-- GPT-3 **"Language Models are Few-Shot Learners"**. NeurIPS 2020. [Paper](https://arxiv.org/abs/2005.14165)
-- OPT **"OPT: Open Pre-trained Transformer Language Models"**. 2022. [Paper](https://arxiv.org/abs/2205.01068)
-- PaLM **"PaLM: Scaling Language Modeling with Pathways"**. *Aakanksha Chowdhery et al.* arXiv 2022. [Paper](https://arxiv.org/abs/2204.02311)
-- BLOOM  **"BLOOM: A 176B-Parameter Open-Access Multilingual Language Model"**. 2022. [Paper](https://arxiv.org/abs/2211.05100)
-- MT-NLG **"Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model"**. 2021. [Paper](https://arxiv.org/abs/2201.11990)
-- GLaM **"GLaM: Efficient Scaling of Language Models with Mixture-of-Experts"**. ICML 2022. [Paper](https://arxiv.org/abs/2112.06905)
-- Gopher **"Scaling Language Models: Methods, Analysis & Insights from Training Gopher"**. 2021. [Paper](http://arxiv.org/abs/2112.11446v2)
-- chinchilla **"Training Compute-Optimal Large Language Models"**. 2022. [Paper](https://arxiv.org/abs/2203.15556)
-- LaMDA **"LaMDA: Language Models for Dialog Applications"**. 2021. [Paper](https://arxiv.org/abs/2201.08239)
-- LLaMA **"LLaMA: Open and Efficient Foundation Language Models"**. 2023. [Paper](https://arxiv.org/abs/2302.13971v1)
-- GPT-4 **"GPT-4 Technical Report"**. 2023. [Paper](http://arxiv.org/abs/2303.08774v2)
-- BloombergGPT **BloombergGPT: A Large Language Model for Finance**, 2023, [Paper](https://arxiv.org/abs/2303.17564)
-- GPT-NeoX-20B: **"GPT-NeoX-20B: An Open-Source Autoregressive Language Model"**. 2022. [Paper](https://arxiv.org/abs/2204.06745)
-- PaLM 2: **"PaLM 2 Technical Report"**. 2023. [Tech.Report](https://arxiv.org/abs/2305.10403)
-- LLaMA 2: **"Llama 2: Open foundation and fine-tuned chat models"**. 2023. [Paper](https://arxiv.org/pdf/2307.09288)
-- Claude 2: **"Model Card and Evaluations for Claude Models"**. 2023. [Model Card](https://www-files.anthropic.com/production/images/Model-Card-Claude-2.pdf)
-
-
-
-## Practical Guide for Data
-
-
-### Pretraining data
-- **RedPajama**, 2023. [Repo](https://github.com/togethercomputer/RedPajama-Data)
-- **The Pile: An 800GB Dataset of Diverse Text for Language Modeling**, Arxiv 2020. [Paper](https://arxiv.org/abs/2101.00027)
-- **How does the pre-training objective affect what large language models learn about linguistic properties?**, ACL 2022. [Paper](https://aclanthology.org/2022.acl-short.16/)
-- **Scaling laws for neural language models**, 2020. [Paper](https://arxiv.org/abs/2001.08361)
-- **Data-centric artificial intelligence: A survey**, 2023. [Paper](https://arxiv.org/abs/2303.10158)
-- **How does GPT Obtain its Ability? Tracing Emergent Abilities of Language Models to their Sources**, 2022. [Blog](https://yaofu.notion.site/How-does-GPT-Obtain-its-Ability-Tracing-Emergent-Abilities-of-Language-Models-to-their-Sources-b9a57ac0fcf74f30a1ab9e3e36fa1dc1)
-### Finetuning data
-- **Benchmarking zero-shot text classification: Datasets, evaluation and entailment approach**, EMNLP 2019. [Paper](https://arxiv.org/abs/1909.00161)
-- **Language Models are Few-Shot Learners**, NIPS 2020. [Paper](https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html)
-- **Does Synthetic Data Generation of LLMs Help Clinical Text Mining?** Arxiv 2023 [Paper](https://arxiv.org/abs/2303.04360)
-### Test data/user data
-- **Shortcut learning of large language models in natural language understanding: A survey**, Arxiv 2023. [Paper](https://arxiv.org/abs/2208.11857)
-- **On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective** Arxiv, 2023. [Paper](https://arxiv.org/abs/2302.12095)
-- **SuperGLUE: A Stickier Benchmark for General-Purpose Language Understanding Systems** Arxiv 2019. [Paper](https://arxiv.org/abs/1905.00537)
-
-
-
-
-
-## Practical Guide for NLP Tasks
-We build a decision flow for choosing LLMs or fine-tuned models~\protect\footnotemark for user's NLP applications. The decision flow helps users assess whether their downstream NLP applications at hand meet specific conditions and, based on that evaluation, determine whether LLMs or fine-tuned models are the most suitable choice for their applications.
-<p align="center">
-<img width="500" src="./imgs/decision.png"/>  
+    }" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最新消息💥</font></font></h2><a id="user-content-latest-news" class="anchor" aria-label="永久链接：最新消息💥" href="#latest-news"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们添加了使用和限制部分。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们使用 PowerPoint 绘制该图并发布了</font><font style="vertical-align: inherit;">GIF 图的源文件</font></font><a href="/Mooler0410/LLMsPracticalGuide/blob/main/source/figure_gif.pptx"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pptx</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 。 [2023年4月27日]</font></font></li>
+<li><font style="vertical-align: inherit;"></font><a href="/Mooler0410/LLMsPracticalGuide/blob/main/source/figure_still.pptx"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们发布了静态版本pptx</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的源文件</font><font style="vertical-align: inherit;">，并用静态版本替换了此存储库中的图片。 [2023年4月29日]</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将 AlexaTM、UniLM、UniLMv2 添加到图中，并更正 Tk 的徽标。 [2023年4月29日]</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加使用和限制（用于商业和研究目的）部分。感谢</font></font><a href="https://github.com/xinyadu"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">杜博士</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 [2023年5月8日]</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">法学硕士的其他实用指南</font></font></h2><a id="user-content-other-practical-guides-for-llms" class="anchor" aria-label="永久链接：法学硕士的其他实用指南" href="#other-practical-guides-for-llms"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么所有 GPT-3 的公开复制都失败了？我们应该在哪些任务中使用 GPT-3.5/ChatGPT？</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 2023，</font></font><a href="https://jingfengyang.github.io/gpt" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">构建用于生产的 LLM 应用程序</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，2023 年，</font></font><a href="https://huyenchip.com/2023/04/11/llm-engineering.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以数据为中心的人工智能</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，2023，</font></font><a href="https://github.com/daochenzha/data-centric-AI"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回购</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/</font></font><a href="https://towardsdatascience.com/what-are-the-data-centric-ai-concepts-behind-gpt-models-a590071bb727" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/</font></font><a href="https://arxiv.org/abs/2303.10158" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录</font></font></h2><a id="user-content-catalog" class="anchor" aria-label="永久链接：目录" href="#catalog"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="#the-practical-guides-for-large-language-models-"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大型语言模型实用指南</font></font></a>
+<ul dir="auto">
+<li><a href="#practical-guide-for-models"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模型实用指南</font></font></a>
+<ul dir="auto">
+<li><a href="#bert-style-language-models-encoder-decoder-or-encoder-only"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BERT 风格的语言模型：编码器-解码器或仅编码器</font></font></a></li>
+<li><a href="#gpt-style-language-models-decoder-only"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPT 风格的语言模型：仅解码器</font></font></a></li>
+</ul>
+</li>
+<li><a href="#practical-guide-for-data"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据实用指南</font></font></a>
+<ul dir="auto">
+<li><a href="#pretraining-data"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预训练数据</font></font></a></li>
+<li><a href="#finetuning-data"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">微调数据</font></font></a></li>
+<li><a href="#test-datauser-data"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试数据/用户数据</font></font></a></li>
+</ul>
+</li>
+<li><a href="#practical-guide-for-nlp-tasks"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NLP 任务实用指南</font></font></a>
+<ul dir="auto">
+<li><a href="#traditional-nlu-tasks"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">传统 NLU 任务</font></font></a></li>
+<li><a href="#generation-tasks"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成任务</font></font></a></li>
+<li><a href="#knowledge-intensive-tasks"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">知识密集型任务</font></font></a></li>
+<li><a href="#abilities-with-scaling"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">扩展能力</font></font></a></li>
+<li><a href="#specific-tasks"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具体任务</font></font></a></li>
+<li><a href="#real-world-tasks"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现实世界的“任务”</font></font></a></li>
+<li><a href="#efficiency"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">效率</font></font></a></li>
+<li><a href="#trustworthiness"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">诚信度</font></font></a></li>
+<li><a href="#benchmark-instruction-tuning"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基准指令调优</font></font></a></li>
+<li><a href="#alignment"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">结盟</font></font></a>
+<ul dir="auto">
+<li><a href="#safety-alignment-harmless"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安全对准（无害）</font></font></a></li>
+<li><a href="#truthfulness-alignment-honest"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">诚实一致（诚实）</font></font></a></li>
+<li><a href="#practical-guides-for-prompting-helpful"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提示实用指南（有帮助）</font></font></a></li>
+<li><a href="#alignment-efforts-of-open-source-communtity"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开源社区的协调努力</font></font></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#Usage-and-Restrictions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用和限制（模型和数据）</font></font></a></li>
+</ul>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模型实用指南</font></font></h2><a id="user-content-practical-guide-for-models" class="anchor" aria-label="永久链接：模型实用指南" href="#practical-guide-for-models"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BERT 风格的语言模型：编码器-解码器或仅编码器</font></font></h3><a id="user-content-bert-style-language-models-encoder-decoder-or-encoder-only" class="anchor" aria-label="永久链接：BERT 风格的语言模型：编码器-解码器或仅编码器" href="#bert-style-language-models-encoder-decoder-or-encoder-only"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BERT </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BERT：用于语言理解的深度双向变换器的预训练</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，2018，</font></font><a href="https://aclanthology.org/N19-1423.pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RoBERTa </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RoBERTa：一种稳健优化的 BERT 预训练方法</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，2019 年，</font></font><a href="https://arxiv.org/abs/1907.11692" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DistilBERT </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DistilBERT，BERT 的精炼版：更小、更快、更便宜、更轻</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，2019 年，</font></font><a href="https://arxiv.org/abs/1910.01108" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ALBERT </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ALBERT：用于语言表示自监督学习的 Lite BERT</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，2019 年，</font></font><a href="https://arxiv.org/abs/1909.11942" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">UniLM</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自然语言理解和生成的统一语言模型预训练</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，2019 年</font></font><a href="https://arxiv.org/abs/1905.03197" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Electra </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Electra：将文本编码器预训练为判别器而不是生成器</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，2020 年，</font></font><a href="https://openreview.net/pdf?id=r1xMH1BtvB" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T5 </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“使用统一的文本到文本转换器探索迁移学习的局限性”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">科林·拉斐尔等人。</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> JMLR 2019.</font></font><a href="https://arxiv.org/abs/1910.10683" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GLM </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“GLM-130B：开放式双语预训练模型”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 2022.</font></font><a href="https://arxiv.org/abs/2210.02414" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">纸</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AlexaTM </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“AlexaTM 20B：使用大规模多语言 Seq2Seq 模型进行少样本学习”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">萨利赫·索尔坦等人。</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> arXiv 2022。</font></font><a href="https://arxiv.org/abs/2208.01448" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ST-MoE </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ST-MoE：设计稳定且可转移的稀疏专家模型</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 2022年</font></font><a href="https://arxiv.org/abs/2202.08906" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPT 风格的语言模型：仅解码器</font></font></h3><a id="user-content-gpt-style-language-models-decoder-only" class="anchor" aria-label="永久链接：GPT 风格的语言模型：仅解码器" href="#gpt-style-language-models-decoder-only"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPT</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过生成预训练提高语言理解</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 2018.</font></font><a href="https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPT-2</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语言模型是无监督多任务学习器</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 2018.</font></font><a href="https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPT-3 </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“语言模型是少样本学习者”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 NeurIPS 2020。</font></font><a href="https://arxiv.org/abs/2005.14165" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OPT </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“OPT：开放预训练的 Transformer 语言模型”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 2022.</font></font><a href="https://arxiv.org/abs/2205.01068" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">纸</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PaLM </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“PaLM：通过路径扩展语言建模”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿坎克沙·乔杜里等人。</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> arXiv 2022。</font></font><a href="https://arxiv.org/abs/2204.02311" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BLOOM   </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“BLOOM：176B 参数开放访问多语言语言模型”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 2022.</font></font><a href="https://arxiv.org/abs/2211.05100" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">纸</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MT-NLG </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“使用 DeepSpeed 和 Megatron 训练 Megatron-Turing NLG 530B，一种大规模生成语言模型”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 2021.</font></font><a href="https://arxiv.org/abs/2201.11990" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">纸</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GLaM </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“GLaM：专家混合的语言模型的有效扩展”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 ICML 2022。</font></font><a href="https://arxiv.org/abs/2112.06905" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gopher </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“扩展语言模型：训练 Gopher 的方法、分析和见解”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 2021.</font></font><a href="http://arxiv.org/abs/2112.11446v2" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">纸</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">chinchilla </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“训练计算最优大型语言模型”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 2022.</font></font><a href="https://arxiv.org/abs/2203.15556" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">纸</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LaMDA </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“LaMDA：对话应用程序的语言模型”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 2021.</font></font><a href="https://arxiv.org/abs/2201.08239" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">纸</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LLaMA </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“LLaMA：开放高效的基础语言模型”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 2023.</font></font><a href="https://arxiv.org/abs/2302.13971v1" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">纸</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPT-4 </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“GPT-4技术报告”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 2023.</font></font><a href="http://arxiv.org/abs/2303.08774v2" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">纸</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BloombergGPT </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BloombergGPT：大型金融语言模型</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，2023 年，</font></font><a href="https://arxiv.org/abs/2303.17564" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPT-NeoX-20B：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“GPT-NeoX-20B：开源自回归语言模型”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 2022.</font></font><a href="https://arxiv.org/abs/2204.06745" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">纸</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PaLM 2：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“PaLM 2 技术报告”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 2023.</font></font><a href="https://arxiv.org/abs/2305.10403" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">技术报告</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LLaMA 2：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“Llama 2：开放基础和微调聊天模型”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 2023.</font></font><a href="https://arxiv.org/pdf/2307.09288" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">纸</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">克劳德 2：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“克劳德模型的模型卡和评估”</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 2023.</font></font><a href="https://www-files.anthropic.com/production/images/Model-Card-Claude-2.pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模型卡</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据实用指南</font></font></h2><a id="user-content-practical-guide-for-data" class="anchor" aria-label="永久链接：数据实用指南" href="#practical-guide-for-data"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预训练数据</font></font></h3><a id="user-content-pretraining-data" class="anchor" aria-label="永久链接：预训练数据" href="#pretraining-data"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">红色睡衣</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，2023。</font></font><a href="https://github.com/togethercomputer/RedPajama-Data"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回购</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">The Pile：用于语言建模的 800GB 多样化文本数据集</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2020。</font></font><a href="https://arxiv.org/abs/2101.00027" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预训练目标如何影响大型语言模型学习语言属性的能力？</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，ACL 2022。</font></font><a href="https://aclanthology.org/2022.acl-short.16/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">神经语言模型的缩放定律</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，2020。</font></font><a href="https://arxiv.org/abs/2001.08361" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以数据为中心的人工智能：一项调查</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，2023 年。</font></font><a href="https://arxiv.org/abs/2303.10158" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPT如何获得它的能力？追踪语言模型的新兴能力的来源</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，2022 年。</font></font><a href="https://yaofu.notion.site/How-does-GPT-Obtain-its-Ability-Tracing-Emergent-Abilities-of-Language-Models-to-their-Sources-b9a57ac0fcf74f30a1ab9e3e36fa1dc1" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">微调数据</font></font></h3><a id="user-content-finetuning-data" class="anchor" aria-label="永久链接：微调数据" href="#finetuning-data"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">零样本文本分类基准测试：数据集、评估和蕴涵方法</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，EMNLP 2019。</font></font><a href="https://arxiv.org/abs/1909.00161" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语言模型是少样本学习者</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，NIPS 2020。</font></font><a href="https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">法学硕士的综合数据生成有助于临床文本挖掘吗？</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Arxiv 2023</font></font><a href="https://arxiv.org/abs/2303.04360" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测试数据/用户数据</font></font></h3><a id="user-content-test-datauser-data" class="anchor" aria-label="永久链接：测试数据/用户数据" href="#test-datauser-data"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自然语言理解中大型语言模型的快捷学习：一项调查</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2023。</font></font><a href="https://arxiv.org/abs/2208.11857" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于 ChatGPT 的鲁棒性：对抗性和非分布视角</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arxiv，2023。</font></font><a href="https://arxiv.org/abs/2302.12095" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SuperGLUE：通用语言理解系统的更具粘性的基准</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arxiv 2019。</font></font><a href="https://arxiv.org/abs/1905.00537" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">NLP 任务实用指南</font></font></h2><a id="user-content-practical-guide-for-nlp-tasks" class="anchor" aria-label="永久链接：NLP 任务实用指南" href="#practical-guide-for-nlp-tasks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们为用户的 NLP 应用程序构建了选择 LLM 或微调模型的决策流程~\protect\footnotemark。决策流程可帮助用户评估其下游 NLP 应用程序是否满足特定条件，并根据该评估确定 LLM 或微调模型是否是其应用程序的最合适选择。</font></font></p>
+<p align="center" dir="auto">
+<a target="_blank" rel="noopener noreferrer" href="/Mooler0410/LLMsPracticalGuide/blob/main/imgs/decision.png"><img width="500" src="/Mooler0410/LLMsPracticalGuide/raw/main/imgs/decision.png" style="max-width: 100%;"></a>  
 </p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">传统 NLU 任务</font></font></h3><a id="user-content-traditional-nlu-tasks" class="anchor" aria-label="永久链接：传统 NLU 任务" href="#traditional-nlu-tasks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民间评论数据集Arxiv 2023</font><a href="https://arxiv.org/abs/2301.11125" rel="nofollow"><font style="vertical-align: inherit;">论文</font></a><strong><font style="vertical-align: inherit;">中有毒评论分类的基准</font></strong></font><a href="https://arxiv.org/abs/2301.11125" rel="nofollow"><font style="vertical-align: inherit;"></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">chatgpt 是通用自然语言处理任务求解器吗？</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Arxiv 2023</font></font><a href="https://arxiv.org/abs/2302.06476" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于新闻摘要的大型语言模型基准测试</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arxiv 2022</font></font><a href="https://arxiv.org/abs/2301.13848" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生成任务</font></font></h3><a id="user-content-generation-tasks" class="anchor" aria-label="永久链接：生成任务" href="#generation-tasks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPT-3时代的新闻总结与评价</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arxiv 2022 </font></font><a href="https://arxiv.org/abs/2209.12356" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Paper</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">chatgpt 是一个好的翻译器吗？是的，使用 gpt-4 作为引擎</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arxiv 2023</font></font><a href="https://arxiv.org/abs/2301.08745" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Microsoft 用于 WMT21 共享任务的多语言机器翻译系统</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，WMT2021</font></font><a href="https://aclanthology.org/2021.wmt-1.54/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ChatGPT也能看懂吗？ chatgpt 和微调 bert 的比较研究</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2023，</font></font><a href="https://arxiv.org/pdf/2302.10198.pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">知识密集型任务</font></font></h3><a id="user-content-knowledge-intensive-tasks" class="anchor" aria-label="永久链接：知识密集型任务" href="#knowledge-intensive-tasks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测量大规模多任务语言理解</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，ICLR 2021</font></font><a href="https://arxiv.org/abs/2009.03300" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">超越模仿游戏：量化和推断语言模型的能力</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2022</font></font><a href="https://arxiv.org/abs/2206.04615" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">逆缩放奖</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，2022</font></font><a href="https://github.com/inverse-scaling/prize"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atlas：使用检索增强语言模型进行少样本学习</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2022</font></font><a href="https://arxiv.org/abs/2208.03299" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大型语言模型编码临床知识</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2022</font></font><a href="https://arxiv.org/abs/2212.13138" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">扩展能力</font></font></h3><a id="user-content-abilities-with-scaling" class="anchor" aria-label="永久链接：扩展能力" href="#abilities-with-scaling"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">训练计算最优大型语言模型</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，NeurIPS 2022</font></font><a href="https://openreview.net/pdf?id=iBBcRUlOAPR" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">神经语言模型的缩放定律</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2020</font></font><a href="https://arxiv.org/abs/2001.08361" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过基于过程和结果的反馈解决数学应用题</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2022</font></font><a href="https://arxiv.org/abs/2211.14275" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">思维链提示引发大型语言模型中的推理</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，NeurIPS 2022</font></font><a href="https://arxiv.org/abs/2201.11903" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大语言模型的涌现能力</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，TMLR 2022</font></font><a href="https://arxiv.org/abs/2206.07682" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">逆缩放可以变成 U 形</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2022</font></font><a href="https://arxiv.org/abs/2211.02011" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大型语言模型中的推理：一项调查</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2022</font></font><a href="https://arxiv.org/abs/2212.10403" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">具体任务</font></font></h3><a id="user-content-specific-tasks" class="anchor" aria-label="固定链接：具体任务" href="#specific-tasks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">图像作为外语：所有视觉和视觉语言任务的 BEiT 预训练</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arixv 2022</font></font><a href="https://arxiv.org/abs/2208.10442" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PaLI：联合缩放的多语言语言图像模型</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2022</font></font><a href="https://arxiv.org/abs/2209.06794" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AugGPT：利用 ChatGPT 进行文本数据增强</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2023</font></font><a href="https://arxiv.org/abs/2302.13007" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">gpt-3 是一个好的数据注释器吗？</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , Arxiv 2022</font></font><a href="https://arxiv.org/abs/2212.10450" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">想降低标签成本吗？ GPT-3 可以提供帮助</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，EMNLP 调查结果 2021</font></font><a href="https://aclanthology.org/2021.findings-emnlp.354/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPT3Mix：利用大规模语言模型进行文本增强</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，EMNLP 研究结果 2021 年</font></font><a href="https://aclanthology.org/2021.findings-emnlp.192/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于患者试验匹配的法学硕士：隐私意识数据增强以实现更好的性能和通用性</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2023</font></font><a href="https://arxiv.org/abs/2303.16756" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ChatGPT 在文本注释任务方面优于 Crowd-Workers</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2023</font></font><a href="https://arxiv.org/abs/2303.15056" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">G-Eval：使用 GPT-4 和更好的人类对齐进行 NLG 评估</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2023</font></font><a href="https://arxiv.org/abs/2303.16634" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPTScore：随心所欲地评估</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2023</font></font><a href="https://arxiv.org/abs/2302.04166" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大型语言模型是最先进的翻译质量评估器</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2023</font></font><a href="https://arxiv.org/abs/2302.14520" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ChatGPT 是一个好的 NLG 评估器吗？初步研究</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2023</font></font><a href="https://arxiv.org/abs/2303.04048" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">现实世界的“任务”</font></font></h3><a id="user-content-real-world-tasks" class="anchor" aria-label="永久链接：现实世界的“任务”" href="#real-world-tasks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通用人工智能的火花：GPT-4 的早期实验</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2023</font></font><a href="https://arxiv.org/abs/2303.12712" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">效率</font></font></h3><a id="user-content-efficiency" class="anchor" aria-label="永久链接：效率" href="#efficiency"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">成本</font></font></li>
+</ol>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Openai 的 gpt-3 语言模型：技术概述</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，2020。</font></font><a href="https://lambdalabs.com/blog/demystifying-gpt-3" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客文章</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">测量云实例中人工智能的碳强度</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，FaccT 2022。</font></font><a href="https://dl.acm.org/doi/abs/10.1145/3531146.3533234" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在人工智能领域，越大越好吗？</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，自然文章 2023。</font></font><a href="https://www.nature.com/articles/d41586-023-00641-w" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文章</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语言模型是少样本学习者</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，NeurIPS 2020。</font></font><a href="https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">定价</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，OpenAI。</font></font><a href="https://openai.com/pricing" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客文章</font></font></a></li>
+</ul>
+<ol start="2" dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">潜伏</font></font></li>
+</ol>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HELM：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语言模型的整体评估</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2022。</font></font><a href="https://arxiv.org/abs/2211.09110" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+</ul>
+<ol start="3" dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">参数高效的微调</font></font></li>
+</ol>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LoRA：大型语言模型的低阶适应</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2021。</font></font><a href="https://arxiv.org/abs/2106.09685" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">前缀调整：优化生成连续提示</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，ACL 2021。</font></font><a href="https://aclanthology.org/2021.acl-long.353/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">P-Tuning：快速调整可以与跨尺度和任务的微调相媲美</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，ACL 2022。</font></font><a href="https://aclanthology.org/2022.acl-short.8/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">P-Tuning v2：快速调整可以与跨尺度和任务的通用微调相媲美</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2022。</font></font><a href="https://arxiv.org/abs/2110.07602" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+</ul>
+<ol start="4" dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预训练系统</font></font></li>
+</ol>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ZeRO：训练万亿参数模型的内存优化</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2019。</font></font><a href="https://arxiv.org/abs/1910.02054" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Megatron-LM：使用模型并行性训练数十亿参数语言模型</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2019。</font></font><a href="https://arxiv.org/abs/1910.02054" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Megatron-LM 在 GPU 集群上进行高效大规模语言模型训练</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2021。</font></font><a href="https://arxiv.org/abs/2104.04473" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">减少大型变压器模型中的激活重新计算</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2021。</font></font><a href="https://arxiv.org/abs/2104.04473" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">诚信度</font></font></h3><a id="user-content-trustworthiness" class="anchor" aria-label="永久链接： 可信度" href="#trustworthiness"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">稳健性和校准</font></font></li>
+</ol>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用前校准：提高语言模型的小样本性能</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，ICML 2021。</font></font><a href="http://proceedings.mlr.press/v139/zhao21c.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">SPeC：基于软提示的校准，可减轻临床记录摘要中的性能变异性</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2023。</font></font><a href="https://arxiv.org/abs/2303.13035" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+</ul>
+<ol start="2" dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">虚假偏见</font></font></li>
+</ol>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大型语言模型可能是懒惰的学习者：分析情境学习中的捷径</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，ACL 2023</font></font><a href="https://aclanthology.org/2023.findings-acl.284/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文的发现</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自然语言理解中大语言模型的快捷学习：一项调查</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，2023 年</font></font><a href="https://arxiv.org/abs/2208.11857" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">减轻字幕系统中的性别偏见</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，WWW 2020</font></font><a href="https://dl.acm.org/doi/abs/10.1145/3442381.3449950" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用前校准：提高语言模型的少样本性能</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，ICML 2021</font></font><a href="https://arxiv.org/abs/2102.09690" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">深度神经网络中的捷径学习</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Nature Machine Intelligence 2020</font></font><a href="https://www.nature.com/articles/s42256-020-00257-z" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基于提示的模型真的理解其提示的含义吗？</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , NAACL 2022</font></font><a href="https://aclanthology.org/2022.naacl-main.167/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+</ul>
+<ol start="3" dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安全问题</font></font></li>
+</ol>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPT-4 系统卡</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，2023 年</font></font><a href="https://cdn.openai.com/papers/gpt-4-system-card.pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检测 llm 生成文本的科学</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2023</font></font><a href="https://arxiv.org/pdf/2303.07205.pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如何通过语言分享刻板印象：社会类别和刻板印象沟通（scsc）框架的回顾和介绍</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，传播研究评论，2019年</font></font><a href="https://research.vu.nl/en/publications/how-stereotypes-are-shared-through-language-a-review-and-introduc" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">性别深浅：商业性别分类中的交叉准确性差异</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，FaccT 2018</font></font><a href="https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基准指令调优</font></font></h3><a id="user-content-benchmark-instruction-tuning" class="anchor" aria-label="永久链接：基准指令调整" href="#benchmark-instruction-tuning"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FLAN：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">微调语言模型是零样本学习者</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2021</font></font><a href="https://arxiv.org/abs/2109.01652" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T0：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多任务提示训练实现零样本任务泛化</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2021</font></font><a href="https://arxiv.org/abs/2110.08207" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过自然语言众包指令进行跨任务泛化</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，ACL 2022</font></font><a href="https://aclanthology.org/2022.acl-long.244.pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tk-INSTRUCT：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">超自然指令：通过 1600 多个 NLP 任务的声明性指令进行泛化</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，EMNLP 2022</font></font><a href="https://aclanthology.org/2022.emnlp-main.340/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FLAN-T5/PaLM：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">缩放指令微调语言模型</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2022</font></font><a href="https://arxiv.org/abs/2210.11416" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Flan Collection：有效指令调优的设计数据和方法</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2023</font></font><a href="https://arxiv.org/abs/2301.13688" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OPT-IML：通过泛化视角扩展语言模型指令元学习</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2023</font></font><a href="https://arxiv.org/abs/2212.12017" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">结盟</font></font></h3><a id="user-content-alignment" class="anchor" aria-label="永久链接：对齐" href="#alignment"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据人类偏好进行深度强化学习</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，NIPS 2017</font></font><a href="https://arxiv.org/abs/1706.03741" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">学习从人类反馈中总结</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2020</font></font><a href="https://arxiv.org/abs/2009.01325" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为对齐实验室的通用语言助理</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2021</font></font><a href="https://arxiv.org/abs/2112.00861" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过人类反馈的强化学习来训练一个有用且无害的助手</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2022</font></font><a href="https://arxiv.org/abs/2204.05862" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">教学语言模型以支持经过验证的引用的答案</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2022</font></font><a href="https://arxiv.org/abs/2203.11147" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">InstructGPT：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">训练语言模型以遵循人类反馈的指令</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2022</font></font><a href="https://arxiv.org/abs/2203.02155" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过有针对性的人类判断改善对话代理的一致性</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2022</font></font><a href="https://arxiv.org/abs/2209.14375" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">奖励模型过度优化的缩放法则</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2022</font></font><a href="https://arxiv.org/abs/2210.10760" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可扩展监督：</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">衡量大型语言模型可扩展监督的进展</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2022</font></font><a href="https://arxiv.org/pdf/2211.03540.pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安全对准（无害）</font></font></h4><a id="user-content-safety-alignment-harmless" class="anchor" aria-label="永久链接：安全对齐（无害）" href="#safety-alignment-harmless"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Red Teaming 语言模型与语言模型</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2022</font></font><a href="https://arxiv.org/abs/2202.03286" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">宪法人工智能：人工智能反馈的无害性</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2022</font></font><a href="https://arxiv.org/abs/2212.08073" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大型语言模型中的道德自我纠正能力</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2023</font></font><a href="https://arxiv.org/abs/2302.07459" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenAI：我们的 AI 安全方法</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，2023</font></font><a href="https://openai.com/blog/our-approach-to-ai-safety" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">诚实一致（诚实）</font></font></h4><a id="user-content-truthfulness-alignment-honest" class="anchor" aria-label="永久链接：诚实一致（诚实）" href="#truthfulness-alignment-honest"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语言模型的强化学习</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，2023</font></font><a href="https://gist.github.com/yoavg/6bff0fecd65950898eba1bb321cfbd81"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提示实用指南（有帮助）</font></font></h4><a id="user-content-practical-guides-for-prompting-helpful" class="anchor" aria-label="永久链接：提示实用指南（有帮助）" href="#practical-guides-for-prompting-helpful"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenAI 食谱</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><a href="https://github.com/openai/openai-cookbook/blob/main/techniques_to_improve_reliability.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">及时工程</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><a href="https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ChatGPT 为开发人员提供提示工程！</font></font></strong> <a href="https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">课程</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开源社区的协调努力</font></font></h4><a id="user-content-alignment-efforts-of-open-source-communtity" class="anchor" aria-label="永久链接：开源社区的协调努力" href="#alignment-efforts-of-open-source-communtity"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自指导：将语言模型与自生成指令对齐</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，Arxiv 2022</font></font><a href="https://arxiv.org/abs/2212.10560" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">羊驼毛</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><a href="https://github.com/tatsu-lab/stanford_alpaca"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回购协议</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">骆驼毛</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><a href="https://github.com/lm-sys/FastChat"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回购协议</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多莉</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.</font></font><a href="https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">深度快速聊天</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><a href="https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPT4全部</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><a href="https://github.com/nomic-ai/gpt4all"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回购协议</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打开助手</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><a href="https://github.com/LAION-AI/Open-Assistant"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回购协议</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">聊天GLM</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><a href="https://github.com/THUDM/ChatGLM-6B"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回购协议</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">莫斯</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><a href="https://github.com/OpenLMLab/MOSS"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">回购协议</font></font></a></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">拉米尼</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font><a href="https://github.com/lamini-ai/lamini/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仓库</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">/</font></font><a href="https://lamini.ai/blog/introducing-lamini" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用与限制</font></font></h2><a id="user-content-usage-and-restrictions" class="anchor" aria-label="永久链接：使用和限制" href="#usage-and-restrictions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 
-### Traditional NLU tasks
 
-- **A benchmark for toxic comment classification on civil comments dataset** Arxiv 2023 [Paper](https://arxiv.org/abs/2301.11125)
-- **Is chatgpt a general-purpose natural language processing task solver?** Arxiv 2023[Paper](https://arxiv.org/abs/2302.06476)
-- **Benchmarking large language models for news summarization** Arxiv 2022 [Paper](https://arxiv.org/abs/2301.13848)
-### Generation tasks
-- **News summarization and evaluation in the era of gpt-3** Arxiv 2022 [Paper](https://arxiv.org/abs/2209.12356)
-- **Is chatgpt a good translator? yes with gpt-4 as the engine** Arxiv 2023 [Paper](https://arxiv.org/abs/2301.08745)
-- **Multilingual machine translation systems from Microsoft for WMT21 shared task**, WMT2021 [Paper](https://aclanthology.org/2021.wmt-1.54/)
-- **Can ChatGPT understand too? a comparative study on chatgpt and fine-tuned bert**, Arxiv 2023, [Paper](https://arxiv.org/pdf/2302.10198.pdf)
-
-
-
-
-### Knowledge-intensive tasks
-- **Measuring massive multitask language understanding**, ICLR 2021 [Paper](https://arxiv.org/abs/2009.03300)
-- **Beyond the imitation game: Quantifying and extrapolating the capabilities of language models**, Arxiv 2022 [Paper](https://arxiv.org/abs/2206.04615)
-- **Inverse scaling prize**, 2022 [Link](https://github.com/inverse-scaling/prize)
-- **Atlas: Few-shot Learning with Retrieval Augmented Language Models**, Arxiv 2022 [Paper](https://arxiv.org/abs/2208.03299)
-- **Large Language Models Encode Clinical Knowledge**, Arxiv 2022 [Paper](https://arxiv.org/abs/2212.13138)
-
-
-### Abilities with Scaling
-
-- **Training Compute-Optimal Large Language Models**, NeurIPS 2022 [Paper](https://openreview.net/pdf?id=iBBcRUlOAPR)
-- **Scaling Laws for Neural Language Models**, Arxiv 2020 [Paper](https://arxiv.org/abs/2001.08361)
-- **Solving math word problems with process- and outcome-based feedback**, Arxiv 2022 [Paper](https://arxiv.org/abs/2211.14275)
-- **Chain of thought prompting elicits reasoning in large language models**, NeurIPS 2022 [Paper](https://arxiv.org/abs/2201.11903)
-- **Emergent abilities of large language models**, TMLR 2022 [Paper](https://arxiv.org/abs/2206.07682)
-- **Inverse scaling can become U-shaped**, Arxiv 2022 [Paper](https://arxiv.org/abs/2211.02011)
-- **Towards Reasoning in Large Language Models: A Survey**, Arxiv 2022 [Paper](https://arxiv.org/abs/2212.10403)
-
-
-### Specific tasks
-- **Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks**, Arixv 2022 [Paper](https://arxiv.org/abs/2208.10442)
-- **PaLI: A Jointly-Scaled Multilingual Language-Image Model**, Arxiv 2022 [Paper](https://arxiv.org/abs/2209.06794)
-- **AugGPT: Leveraging ChatGPT for Text Data Augmentation**, Arxiv 2023 [Paper](https://arxiv.org/abs/2302.13007)
-- **Is gpt-3 a good data annotator?**, Arxiv 2022 [Paper](https://arxiv.org/abs/2212.10450)
-- **Want To Reduce Labeling Cost? GPT-3 Can Help**, EMNLP findings 2021 [Paper](https://aclanthology.org/2021.findings-emnlp.354/)
-- **GPT3Mix: Leveraging Large-scale Language Models for Text Augmentation**, EMNLP findings 2021 [Paper](https://aclanthology.org/2021.findings-emnlp.192/)
-- **LLM for Patient-Trial Matching: Privacy-Aware Data Augmentation Towards Better Performance and Generalizability**, Arxiv 2023 [Paper](https://arxiv.org/abs/2303.16756)
-- **ChatGPT Outperforms Crowd-Workers for Text-Annotation Tasks**, Arxiv 2023 [Paper](https://arxiv.org/abs/2303.15056)
-- **G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment**, Arxiv 2023 [Paper](https://arxiv.org/abs/2303.16634)
-- **GPTScore: Evaluate as You Desire**, Arxiv 2023 [Paper](https://arxiv.org/abs/2302.04166)
-- **Large Language Models Are State-of-the-Art Evaluators of Translation Quality**, Arxiv 2023 [Paper](https://arxiv.org/abs/2302.14520)
-- **Is ChatGPT a Good NLG Evaluator? A Preliminary Study**, Arxiv 2023 [Paper](https://arxiv.org/abs/2303.04048)
-
-### Real-World ''Tasks''
-- **Sparks of Artificial General Intelligence: Early experiments with GPT-4**, Arxiv 2023 [Paper](https://arxiv.org/abs/2303.12712)
-
-### Efficiency
-1. Cost
-- **Openai’s gpt-3 language model: A technical overview**, 2020. [Blog Post](https://lambdalabs.com/blog/demystifying-gpt-3)
-- **Measuring the carbon intensity of ai in cloud instances**, FaccT 2022. [Paper](https://dl.acm.org/doi/abs/10.1145/3531146.3533234)
-- **In AI, is bigger always better?**, Nature Article 2023. [Article](https://www.nature.com/articles/d41586-023-00641-w)
-- **Language Models are Few-Shot Learners**, NeurIPS 2020. [Paper](https://proceedings.neurips.cc/paper_files/paper/2020/file/1457c0d6bfcb4967418bfb8ac142f64a-Paper.pdf)
-- **Pricing**, OpenAI. [Blog Post](https://openai.com/pricing)
-2. Latency
-- HELM: **Holistic evaluation of language models**, Arxiv 2022. [Paper](https://arxiv.org/abs/2211.09110)
-3. Parameter-Efficient Fine-Tuning
-- **LoRA: Low-Rank Adaptation of Large Language Models**, Arxiv 2021. [Paper](https://arxiv.org/abs/2106.09685)
-- **Prefix-Tuning: Optimizing Continuous Prompts for Generation**, ACL 2021. [Paper](https://aclanthology.org/2021.acl-long.353/)
-- **P-Tuning: Prompt Tuning Can Be Comparable to Fine-tuning Across Scales and Tasks**, ACL 2022. [Paper](https://aclanthology.org/2022.acl-short.8/)
-- **P-Tuning v2: Prompt Tuning Can Be Comparable to Fine-tuning Universally Across Scales and Tasks**, Arxiv 2022. [Paper](https://arxiv.org/abs/2110.07602)
-4. Pretraining System
-- **ZeRO: Memory Optimizations Toward Training Trillion Parameter Models**, Arxiv 2019. [Paper](https://arxiv.org/abs/1910.02054)
-- **Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism**, Arxiv 2019. [Paper](https://arxiv.org/abs/1910.02054)
-- **Efficient Large-Scale Language Model Training on GPU Clusters Using Megatron-LM**, Arxiv 2021. [Paper](https://arxiv.org/abs/2104.04473)
-- **Reducing Activation Recomputation in Large Transformer Models**, Arxiv 2021. [Paper](https://arxiv.org/abs/2104.04473)
-
-
-### Trustworthiness
-1. Robustness and Calibration
-- **Calibrate before use: Improving few-shot performance of language models**, ICML 2021. [Paper](http://proceedings.mlr.press/v139/zhao21c.html)
-- **SPeC: A Soft Prompt-Based Calibration on Mitigating Performance Variability in Clinical Notes Summarization**, Arxiv 2023. [Paper](https://arxiv.org/abs/2303.13035)
-  
-2. Spurious biases
-- **Large Language Models Can be Lazy Learners: Analyze Shortcuts in In-Context Learning**, Findings of ACL 2023 [Paper](https://aclanthology.org/2023.findings-acl.284/)
-- **Shortcut learning of large language models in natural language understanding: A survey**, 2023 [Paper](https://arxiv.org/abs/2208.11857)
-- **Mitigating gender bias in captioning system**, WWW 2020 [Paper](https://dl.acm.org/doi/abs/10.1145/3442381.3449950)
-- **Calibrate Before Use: Improving Few-Shot Performance of Language Models**, ICML 2021 [Paper](https://arxiv.org/abs/2102.09690)
-- **Shortcut Learning in Deep Neural Networks**, Nature Machine Intelligence 2020 [Paper](https://www.nature.com/articles/s42256-020-00257-z)
-- **Do Prompt-Based Models Really Understand the Meaning of Their Prompts?**, NAACL 2022 [Paper](https://aclanthology.org/2022.naacl-main.167/)
-  
-3. Safety issues
-- **GPT-4 System Card**, 2023 [Paper](https://cdn.openai.com/papers/gpt-4-system-card.pdf)
-- **The science of detecting llm-generated texts**, Arxiv 2023 [Paper](https://arxiv.org/pdf/2303.07205.pdf)
-- **How stereotypes are shared through language: a review and introduction of the aocial categories and stereotypes communication (scsc) framework**, Review of Communication Research, 2019 [Paper](https://research.vu.nl/en/publications/how-stereotypes-are-shared-through-language-a-review-and-introduc)
-- **Gender shades: Intersectional accuracy disparities in commercial gender classification**, FaccT 2018 [Paper](https://proceedings.mlr.press/v81/buolamwini18a/buolamwini18a.pdf)
-
-
-### Benchmark Instruction Tuning
-
-- FLAN: **Finetuned Language Models Are Zero-Shot Learners**, Arxiv 2021 [Paper](https://arxiv.org/abs/2109.01652)
-- T0: **Multitask Prompted Training Enables Zero-Shot Task Generalization**, Arxiv 2021 [Paper](https://arxiv.org/abs/2110.08207)
-- **Cross-task generalization via natural language crowdsourcing instructions**, ACL 2022 [Paper](https://aclanthology.org/2022.acl-long.244.pdf)
-- Tk-INSTRUCT: **Super-NaturalInstructions: Generalization via Declarative Instructions on 1600+ NLP Tasks**, EMNLP 2022 [Paper](https://aclanthology.org/2022.emnlp-main.340/)
-- FLAN-T5/PaLM: **Scaling Instruction-Finetuned Language Models**, Arxiv 2022 [Paper](https://arxiv.org/abs/2210.11416)
-- **The Flan Collection: Designing Data and Methods for Effective Instruction Tuning**, Arxiv 2023 [Paper](https://arxiv.org/abs/2301.13688)
-- **OPT-IML: Scaling Language Model Instruction Meta Learning through the Lens of Generalization**, Arxiv 2023 [Paper](https://arxiv.org/abs/2212.12017)
-
-### Alignment
-
-- **Deep Reinforcement Learning from Human Preferences**, NIPS 2017 [Paper](https://arxiv.org/abs/1706.03741)
-- **Learning to summarize from human feedback**, Arxiv 2020 [Paper](https://arxiv.org/abs/2009.01325)
-- **A General Language Assistant as a Laboratory for Alignment**, Arxiv 2021 [Paper](https://arxiv.org/abs/2112.00861)
-- **Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback**, Arxiv 2022 [Paper](https://arxiv.org/abs/2204.05862)
-- **Teaching language models to support answers with verified quotes**, Arxiv 2022 [Paper](https://arxiv.org/abs/2203.11147)
-- InstructGPT: **Training language models to follow instructions with human feedback**, Arxiv 2022 [Paper](https://arxiv.org/abs/2203.02155)
-- **Improving alignment of dialogue agents via targeted human judgements**, Arxiv 2022 [Paper](https://arxiv.org/abs/2209.14375)
-- **Scaling Laws for Reward Model Overoptimization**, Arxiv 2022 [Paper](https://arxiv.org/abs/2210.10760)
-- Scalable Oversight: **Measuring Progress on Scalable Oversight for Large Language Models**, Arxiv 2022 [Paper](https://arxiv.org/pdf/2211.03540.pdf)
-
-#### Safety Alignment (Harmless)
-
-- **Red Teaming Language Models with Language Models**, Arxiv 2022 [Paper](https://arxiv.org/abs/2202.03286)
-- **Constitutional ai: Harmlessness from ai feedback**, Arxiv 2022 [Paper](https://arxiv.org/abs/2212.08073)
-- **The Capacity for Moral Self-Correction in Large Language Models**, Arxiv 2023 [Paper](https://arxiv.org/abs/2302.07459)
-- **OpenAI: Our approach to AI safety**, 2023 [Blog](https://openai.com/blog/our-approach-to-ai-safety)
-
-#### Truthfulness Alignment (Honest)
-
-- **Reinforcement Learning for Language Models**, 2023 [Blog](https://gist.github.com/yoavg/6bff0fecd65950898eba1bb321cfbd81)
-
-#### Practical Guides for Prompting (Helpful)
-
-- **OpenAI Cookbook**. [Blog](https://github.com/openai/openai-cookbook/blob/main/techniques_to_improve_reliability.md)
-- **Prompt Engineering**. [Blog](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/)
-- **ChatGPT Prompt Engineering for Developers!** [Course](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/)
-
-#### Alignment Efforts of Open-source Communtity
-
-- **Self-Instruct: Aligning Language Model with Self Generated Instructions**, Arxiv 2022 [Paper](https://arxiv.org/abs/2212.10560)
-- **Alpaca**. [Repo](https://github.com/tatsu-lab/stanford_alpaca)
-- **Vicuna**. [Repo](https://github.com/lm-sys/FastChat)
-- **Dolly**. [Blog](https://www.databricks.com/blog/2023/04/12/dolly-first-open-commercially-viable-instruction-tuned-llm)
-- **DeepSpeed-Chat**. [Blog](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat)
-- **GPT4All**. [Repo](https://github.com/nomic-ai/gpt4all)
-- **OpenAssitant**. [Repo](https://github.com/LAION-AI/Open-Assistant)
-- **ChatGLM**. [Repo](https://github.com/THUDM/ChatGLM-6B)
-- **MOSS**. [Repo](https://github.com/OpenLMLab/MOSS)
-- **Lamini**. [Repo](https://github.com/lamini-ai/lamini/)/[Blog](https://lamini.ai/blog/introducing-lamini)
-
-## Usage and Restrictions
-
-<!-- We build a decision flow for choosing LLMs or fine-tuned models~\protect\footnotemark for user's NLP applications.  -->
-<!-- The decision flow helps users assess whether their downstream NLP applications at hand meet specific conditions and, based on that evaluation, determine whether LLMs or fine-tuned models are the most suitable choice for their applications. -->
-
-We build a table summarizing the LLMs usage restrictions (e.g. for commercial and research purposes). In particular, we provide the information from the models and their pretraining data's perspective.
-We urge the users in the community to refer to the licensing information for public models and data and use them in a responsible manner.
-We urge the developers to pay special attention to licensing, make them transparent and comprehensive, to prevent any unwanted and unforeseen usage.
-
-<table class="table table-bordered table-hover table-condensed">
-    <thead><tr><th title="Field #1">LLMs</th>
-    <th title="Field #2" colspan="3" align="center">Model</th>
-    <!-- <th title="Field #3"></th> -->
-    <!-- <th title="Field #4"></th> -->
-    <th title="Field #5" colspan="2" align="center">Data</th>
-    <!-- <th title="Field #6"></th> -->
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们建立了一个表格，总结了法学硕士的使用限制（例如用于商业和研究目的）。特别是，我们从模型及其预训练数据的角度提供信息。我们敦促社区用户参考公共模型和数据的许可信息并负责任地使用它们。我们敦促开发商特别注意许可，使其透明和全面，以防止任何不需要和不可预见的使用。</font></font></p>
+<table>
+    <thead><tr><th title="字段 #1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">法学硕士</font></font></th>
+    <th title="字段 #2" colspan="3" align="center"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模型</font></font></th>
+    
+    
+    <th title="字段 #5" colspan="2" align="center"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据</font></font></th>
+    
     </tr></thead>
     <tbody><tr>
     <td> </td>
-    <td><b>License<b></td>
-    <td><b>Commercial Use<b></td>
-    <td><b>Other noteable restrictions<b></td>
-    <td><b>License<b></td>
-    <td><b>Corpus<b></td>
+    <td><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font><b></b></b></td>
+    <td><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">商业用途</font></font><b></b></b></td>
+    <td><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他值得注意的限制</font></font><b></b></b></td>
+    <td><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font><b></b></b></td>
+    <td><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语料库</font></font><b></b></b></td>
     </tr>
     <tr>
-        <td colspan="6" align="left"><b>Encoder-only</b></td>
-    <tr>
-    <tr>
-    <td>BERT series of models (general domain)</td>
-    <td>Apache 2.0</td>
-    <td>✅</td>
+        <td colspan="6" align="left"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅编码器</font></font></b></td>
+    </tr><tr>
+    </tr><tr>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BERT系列模型（通用领域）</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿帕奇2.0</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></td>
     <td> </td>
-    <td>Public</td>
-    <td>BooksCorpus, English Wikipedia</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">书籍语料库，英语维基百科</font></font></td>
     </tr>
     <tr>
-    <td>RoBERTa</td>
-    <td>MIT license</td>
-    <td>✅</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">罗伯塔</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">麻省理工学院许可证</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></td>
     <td> </td>
-    <td>Public</td>
-    <td>BookCorpus, CC-News, OpenWebText, STORIES</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BookCorpus、CC-News、OpenWebText、故事</font></font></td>
     </tr>
     <tr>
-    <td>ERNIE</td>
-    <td>Apache 2.0</td>
-    <td>✅</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">厄尼</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿帕奇2.0</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></td>
     <td> </td>
-    <td>Public</td>
-    <td>English Wikipedia</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">英文维基百科</font></font></td>
     </tr>
     <tr>
-    <td>SciBERT</td>
-    <td>Apache 2.0</td>
-    <td>✅</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">科学伯特</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿帕奇2.0</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></td>
     <td> </td>
-    <td>Public</td>
-    <td>BERT corpus, <a href="https://aclanthology.org/N18-3011.pdf">1.14M papers from Semantic Scholar</a></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BERT 语料库，</font></font><a href="https://aclanthology.org/N18-3011.pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">语义学者 114 万篇论文</font></font></a></td>
     </tr>
     <tr>
-    <td>LegalBERT</td>
-    <td>CC BY-SA 4.0</td>
-    <td>❌</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">法律BERT</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">抄送-SA 4.0</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">❌</font></font></td>
     <td> </td>
-    <td>Public (except data from the <a href="https://case.law/">Case Law Access Project</a>)</td>
-    <td>EU legislation,  US court cases, etc.</td>
+    <td><font style="vertical-align: inherit;"></font><a href="https://case.law/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">公开（判例法访问项目</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的数据除外</font><font style="vertical-align: inherit;">）</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">欧盟立法、美国法院案例等</font></font></td>
     </tr>
     <tr>
-    <td>BioBERT</td>
-    <td>Apache 2.0</td>
-    <td>✅</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生物BERT</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿帕奇2.0</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></td>
     <td> </td>
-    <td><a href="https://www.nlm.nih.gov/databases/download/terms_and_conditions.html">PubMed</a></td>
-    <td>PubMed, PMC</td>
+    <td><a href="https://www.nlm.nih.gov/databases/download/terms_and_conditions.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">考研</font></font></a></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">公共医学、PMC</font></font></td>
     </tr>
     <tr>
-        <td colspan="6" align="left"><b>Encoder-Decoder</b></td>
-    <tr>
-    <tr>
-    <td>T5</td>
-    <td>Apache 2.0</td>
-    <td>✅</td>
+        <td colspan="6" align="left"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编码器-解码器</font></font></b></td>
+    </tr><tr>
+    </tr><tr>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">T5</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿帕奇2.0</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></td>
     <td> </td>
-    <td>Public</td>
-    <td>C4</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C4</font></font></td>
     </tr>
     <tr>
-    <td>Flan-T5</td>
-    <td>Apache 2.0</td>
-    <td>✅</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">果馅饼-T5</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿帕奇2.0</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></td>
     <td> </td>
-    <td>Public</td>
-    <td>C4, Mixture of tasks (Fig 2 in paper)</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">C4，混合任务（论文中的图2）</font></font></td>
     </tr>
     <tr>
-    <td>BART</td>
-    <td>Apache 2.0</td>
-    <td>✅</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">捷运</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿帕奇2.0</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></td>
     <td> </td>
-    <td>Public</td>
-    <td>RoBERTa corpus </td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">罗伯塔语料库</font></font></td>
     </tr>
     <tr>
-    <td>GLM</td>
-    <td>Apache 2.0</td>
-    <td>✅</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">广义线性模型</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿帕奇2.0</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></td>
     <td> </td>
-    <td>Public</td>
-    <td>BooksCorpus and English Wikipedia</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">书籍语料库和英语维基百科</font></font></td>
     </tr>
     <tr>
-    <td>ChatGLM</td>
-    <td><a href="https://github.com/THUDM/ChatGLM-6B/blob/main/MODEL_LICENSE">ChatGLM License</a></td>
-    <td>❌</td>
-    <td>No use for illegal purposes or military research, no harm the public interest of society</td>
-    <td>N/A</td>
-    <td>1T tokens of Chinese and English corpus</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">聊天GLM</font></font></td>
+    <td><a href="https://github.com/THUDM/ChatGLM-6B/blob/main/MODEL_LICENSE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ChatGLM 许可证</font></font></a></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">❌</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不用于非法目的或军事研究，不损害社会公共利益</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不适用</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中英文语料库1T tokens</font></font></td>
     </tr>
     <tr>
-        <td colspan="6" align="left"><b>Decoder-only</b></td>
-    <tr>
-    <td>GPT2 </td>
-    <td><a href="https://github.com/openai/gpt-2/blob/master/LICENSE">Modified MIT License</a></td>
-    <td>✅</td>
-    <td>Use GPT-2 responsibly and clearly indicate your content was created using GPT-2.</td>
-    <td>Public</td>
-    <td>WebText</td>
+        <td colspan="6" align="left"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">仅解码器</font></font></b></td>
+    </tr><tr>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPT2</font></font></td>
+    <td><a href="https://github.com/openai/gpt-2/blob/master/LICENSE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">修改后的 MIT 许可证</font></font></a></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">负责任地使用 GPT-2，并明确表明您的内容是使用 GPT-2 创建的。</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网络文本</font></font></td>
     </tr>
     <tr>
-    <td>GPT-Neo</td>
-    <td>MIT license</td>
-    <td>✅</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPT-Neo</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">麻省理工学院许可证</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></td>
     <td> </td>
-    <td>Public</td>
-    <td><a href="https://pile.eleuther.ai/">Pile</a></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><a href="https://pile.eleuther.ai/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">桩</font></font></a></td>
     </tr>
     <tr>
-    <td>GPT-J</td>
-    <td>Apache 2.0</td>
-    <td>✅</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPT-J</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿帕奇2.0</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></td>
     <td> </td>
-    <td>Public</td>
-    <td>Pile</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">桩</font></font></td>
     </tr>
     <tr>
-    <td>---&gt; Dolly</td>
-    <td>CC BY NC 4.0</td>
-    <td>❌</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">---&gt; 多莉</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">抄送NC 4.0</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">❌</font></font></td>
     <td> </td>
-    <td>CC BY NC 4.0, Subject to terms of Use of the data generated by OpenAI</td>
-    <td>Pile, Self-Instruct</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CC BY NC 4.0，遵守 OpenAI 生成的数据的使用条款</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">桩，自学</font></font></td>
     </tr>
     <tr>
-    <td>---&gt; GPT4ALL-J</td>
-    <td>Apache 2.0</td>
-    <td>✅</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">---&gt; GPT4ALL-J</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿帕奇2.0</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></td>
     <td> </td>
-    <td>Public</td>
-    <td><a href="https://huggingface.co/datasets/nomic-ai/gpt4all-j-prompt-generations">GPT4All-J dataset</a></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><a href="https://huggingface.co/datasets/nomic-ai/gpt4all-j-prompt-generations" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPT4All-J 数据集</font></font></a></td>
     </tr>
     <tr>
-    <td>Pythia</td>
-    <td>Apache 2.0</td>
-    <td>✅</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">皮提亚</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿帕奇2.0</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></td>
     <td> </td>
-    <td>Public</td>
-    <td>Pile</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">桩</font></font></td>
     </tr>
     <tr>
-    <td>---&gt; Dolly v2</td>
-    <td>MIT license</td>
-    <td>✅</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">---&gt; 多莉 v2</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">麻省理工学院许可证</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></td>
     <td> </td>
-    <td>Public</td>
-    <td>Pile, databricks-dolly-15k</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">桩，databricks-dolly-15k</font></font></td>
     </tr>
     <tr>
-    <td>OPT</td>
-    <td><a href="https://github.com/facebookresearch/metaseq/blob/main/projects/OPT/MODEL_LICENSE.md?fbclid=IwAR1BFK5X1XdUpx_QXoiqyfzYWdNAXJPcg8Cf0ddv5T7sa2UrLUvymj1J8G4">OPT-175B LICENSE AGREEMENT</a></td>
-    <td>❌</td>
-    <td>No development relating to surveillance research and military, no harm the public interest of society</td>
-    <td>Public</td>
-    <td>RoBERTa corpus, the Pile, PushShift.io Reddit</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选择</font></font></td>
+    <td><a href="https://github.com/facebookresearch/metaseq/blob/main/projects/OPT/MODEL_LICENSE.md?fbclid=IwAR1BFK5X1XdUpx_QXoiqyfzYWdNAXJPcg8Cf0ddv5T7sa2UrLUvymj1J8G4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OPT-175B 许可协议</font></font></a></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">❌</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不涉及监视研究和军事方面的发展，不损害社会公共利益</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RoBERTa 语料库、Pile、PushShift.io Reddit</font></font></td>
     </tr>
     <tr>
-    <td>---&gt; OPT-IML</td>
-    <td><a href="https://github.com/facebookresearch/metaseq/blob/main/projects/OPT/MODEL_LICENSE.md?fbclid=IwAR1BFK5X1XdUpx_QXoiqyfzYWdNAXJPcg8Cf0ddv5T7sa2UrLUvymj1J8G4">OPT-175B LICENSE AGREEMENT</a></td>
-    <td>❌</td>
-    <td>same to OPT</td>
-    <td>Public</td>
-    <td>OPT corpus, Extended version of Super-NaturalInstructions</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">---&gt; OPT-IML</font></font></td>
+    <td><a href="https://github.com/facebookresearch/metaseq/blob/main/projects/OPT/MODEL_LICENSE.md?fbclid=IwAR1BFK5X1XdUpx_QXoiqyfzYWdNAXJPcg8Cf0ddv5T7sa2UrLUvymj1J8G4"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OPT-175B 许可协议</font></font></a></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">❌</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与OPT相同</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OPT语料库，超自然指令的扩展版本</font></font></td>
     </tr>
     <tr>
-    <td>YaLM</td>
-    <td>Apache 2.0</td>
-    <td>✅</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">亚LM</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿帕奇2.0</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></td>
     <td> </td>
-    <td>Unspecified</td>
-    <td>Pile, Teams collected Texts in Russian</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未指定</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">堆，团队收集俄语文本</font></font></td>
     </tr>
     <tr>
-    <td>BLOOM</td>
-    <td><a href="https://bigscience.huggingface.co/blog/the-bigscience-rail-license">The BigScience RAIL License</a></td>
-    <td>✅</td>
-    <td>No use of generating verifiably false information with the purpose of harming others; <br/>content without expressly disclaiming that the text is machine generated</td>
-    <td>Public</td>
-    <td>ROOTS corpus (Lauren¸con et al., 2022)</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">盛开</font></font></td>
+    <td><a href="https://bigscience.huggingface.co/blog/the-bigscience-rail-license" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BigScience RAIL 许可证</font></font></a></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不得出于伤害他人的目的而生成可验证的虚假信息；</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内容，但未明确声明文本是机器生成的</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ROOTS 语料库（Lauren¸con 等人，2022）</font></font></td>
     </tr>
     <tr>
-    <td>---&gt; BLOOMZ</td>
-    <td><a href="https://bigscience.huggingface.co/blog/the-bigscience-rail-license">The BigScience RAIL License</a></td>
-    <td>✅</td>
-    <td>same to BLOOM</td>
-    <td>Public</td>
-    <td>ROOTS corpus, xP3</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">---&gt; 布卢姆兹</font></font></td>
+    <td><a href="https://bigscience.huggingface.co/blog/the-bigscience-rail-license" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BigScience RAIL 许可证</font></font></a></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与绽放相同</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ROOT 语料库，xP3</font></font></td>
     </tr>
     <tr>
-    <td>Galactica</td>
-    <td><a href="https://github.com/paperswithcode/galai/blob/main/LICENSE-MODEL.md">CC BY-NC 4.0</a></td>
-    <td>❌</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">卡拉狄加</font></font></td>
+    <td><a href="https://github.com/paperswithcode/galai/blob/main/LICENSE-MODEL.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CC BY-NC 4.0</font></font></a></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">❌</font></font></td>
     <td> </td>
-    <td>N/A</td>
-    <td>The Galactica Corpus</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不适用</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">卡拉狄加语料库</font></font></td>
     </tr>
     <tr>
-    <td>LLaMA</td>
-    <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform">Non-commercial bespoke license</a></td>
-    <td>❌</td>
-    <td>No development relating to surveillance research and military, no harm the public interest of society</td>
-    <td>Public</td>
-    <td>CommonCrawl, C4, Github, Wikipedia, etc.</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">骆驼</font></font></td>
+    <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">非商业定制许可证</font></font></a></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">❌</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不涉及监视研究和军事方面的发展，不损害社会公共利益</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CommonCrawl、C4、Github、维基百科等</font></font></td>
     </tr>
     <tr>
-    <td>---&gt; Alpaca</td>
-    <td>CC BY NC 4.0</td>
-    <td>❌</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">---&gt; 羊驼毛</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">抄送NC 4.0</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">❌</font></font></td>
     <td> </td>
-    <td>CC BY NC 4.0, Subject to terms of Use of the data generated by OpenAI</td>
-    <td>LLaMA corpus, Self-Instruct</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CC BY NC 4.0，遵守 OpenAI 生成的数据的使用条款</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LLaMA 语料库，自学</font></font></td>
     </tr>
     <tr>
-    <td>---&gt; Vicuna</td>
-    <td>CC BY NC 4.0</td>
-    <td>❌</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">---&gt; 骆驼毛</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">抄送NC 4.0</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">❌</font></font></td>
     <td> </td>
-    <td>Subject to terms of Use of the data generated by OpenAI; <br/>Privacy Practices of ShareGPT</td>
-    <td>LLaMA corpus, 70K conversations from <a href="http://sharegpt.com/">ShareGPT.com</a></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">遵守 OpenAI 生成的数据的使用条款；</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ShareGPT 的隐私惯例</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LLaMA 语料库，来自</font></font><a href="http://sharegpt.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ShareGPT.com的 70K 对话</font></font></a></td>
     </tr>
     <tr>
-    <td>---&gt; GPT4ALL</td>
-    <td>GPL Licensed LLaMa</td>
-    <td>❌</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">---&gt; GPT4ALL</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPL 许可 LLaMa</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">❌</font></font></td>
     <td> </td>
-    <td>Public</td>
-    <td><a href="https://huggingface.co/datasets/nomic-ai/gpt4all_prompt_generations">GPT4All dataset</a></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><a href="https://huggingface.co/datasets/nomic-ai/gpt4all_prompt_generations" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPT4All数据集</font></font></a></td>
     </tr>
     <tr>
-    <td>OpenLLaMA</td>
-    <td>Apache 2.0</td>
-    <td>✅</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开放骆驼</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿帕奇2.0</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></td>
     <td> </td>
-    <td>Public</td>
-    <td><a href="https://www.together.xyz/blog/redpajama">RedPajama</a></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><a href="https://www.together.xyz/blog/redpajama" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">红色睡衣</font></font></a></td>
     </tr>
     <tr>
-    <td>CodeGeeX</td>
-    <td><a href="https://github.com/THUDM/CodeGeeX/blob/main/MODEL_LICENSE">The CodeGeeX License</a></td>
-    <td>❌</td>
-    <td>No use for illegal purposes or military research</td>
-    <td>Public</td>
-    <td>Pile, CodeParrot, etc.</td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码极X</font></font></td>
+    <td><a href="https://github.com/THUDM/CodeGeeX/blob/main/MODEL_LICENSE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CodeGeeX 许可证</font></font></a></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">❌</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不得用于非法目的或军事研究</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Pile、CodeParrot 等</font></font></td>
     </tr>
     <tr>
-    <td>StarCoder</td>
-    <td><a href="https://huggingface.co/spaces/bigcode/bigcode-model-license-agreement">BigCode OpenRAIL-M v1 license</a></td>
-    <td>✅</td>
-    <td>No use of generating verifiably false information with the purpose of harming others; <br/>content without expressly disclaiming that the text is machine generated</td>
-    <td>Public</td>
-    <td><a href="https://arxiv.org/pdf/2211.15533.pdf">The Stack</a></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">星码器</font></font></td>
+    <td><a href="https://huggingface.co/spaces/bigcode/bigcode-model-license-agreement" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BigCode OpenRAIL-M v1 许可证</font></font></a></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不得出于伤害他人的目的而生成可验证的虚假信息；</font></font><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">内容，但未明确声明文本是机器生成的</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><a href="https://arxiv.org/pdf/2211.15533.pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">堆栈</font></font></a></td>
     </tr>
-    <td>MPT-7B</td>
-    <td>Apache 2.0</td>
-    <td>✅</td>
+    <tr><td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MPT-7B</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">阿帕奇2.0</font></font></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></td>
     <td> </td>
-    <td>Public</td>
-    <td><a href="https://arxiv.org/abs/2010.11934">mC4 (english)</a>, <a href="https://arxiv.org/pdf/2211.15533.pdf">The Stack</a>, <a href="https://www.together.xyz/blog/redpajama">RedPajama</a>, <a href="https://aclanthology.org/2020.acl-main.447/">S2ORC</a></td>
-    <tr>
-        <td><a href="https://huggingface.co/tiiuae/falcon-40b">falcon</a></td>
-        <td><a href="https://huggingface.co/tiiuae/falcon-40b/blob/main/LICENSE.txt">TII Falcon LLM License</a></td>
-        <td>✅/❌</td>
-        <td>Available under a license allowing commercial use</td>
-        <td>Public</td>
-        <td><a href="https://huggingface.co/datasets/tiiuae/falcon-refinedweb">RefinedWeb</a></td>
+    <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+    <td><a href="https://arxiv.org/abs/2010.11934" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mC4（英文）</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://arxiv.org/pdf/2211.15533.pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">The Stack</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://www.together.xyz/blog/redpajama" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RedPajama</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://aclanthology.org/2020.acl-main.447/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">S2ORC</font></font></a></td>
+    </tr><tr>
+        <td><a href="https://huggingface.co/tiiuae/falcon-40b" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">鹘</font></font></a></td>
+        <td><a href="https://huggingface.co/tiiuae/falcon-40b/blob/main/LICENSE.txt" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TII Falcon 法学硕士许可证</font></font></a></td>
+        <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅/❌</font></font></td>
+        <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可在允许商业用途的许可下使用</font></font></td>
+        <td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">民众</font></font></td>
+        <td><a href="https://huggingface.co/datasets/tiiuae/falcon-refinedweb" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">精致网络</font></font></a></td>
     </tr>
     </tbody></table>
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Mooler0410/LLMsPracticalGuide&type=Date)](https://star-history.com/#Mooler0410/LLMsPracticalGuide&Date)
-
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">明星历史</font></font></h2><a id="user-content-star-history" class="anchor" aria-label="永久链接：明星历史" href="#star-history"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://star-history.com/#Mooler0410/LLMsPracticalGuide&amp;Date" rel="nofollow"><img src="https://camo.githubusercontent.com/c23ce6ae99703299e4a58b120757d9bf949e0e60ef8b1a800324ff5bf1463470/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d4d6f6f6c6572303431302f4c4c4d7350726163746963616c477569646526747970653d44617465" alt="明星历史图" data-canonical-src="https://api.star-history.com/svg?repos=Mooler0410/LLMsPracticalGuide&amp;type=Date" style="max-width: 100%;"></a></p>
+</article></div>
